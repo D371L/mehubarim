@@ -27,18 +27,18 @@ body{
 a{color:inherit;text-decoration:none}
 
 /* Контейнер */
-.wrap{max-width:1200px;margin:0 auto;padding:24px}
+.wrap{max-width:800px;margin:0 auto;padding:24px}
 @media(max-width:560px){.wrap{padding:18px}}
 
 /* Шапка */
-header{text-align:center;padding:28px 0 10px}
-.main-logo{max-width:180px;height:auto;margin:0 auto 10px;display:block}
+header{text-align:center;padding:1px 1px 1px}
+.main-logo{max-width:240px;height:auto;margin:0 auto 0px;display:block}
 header h1{margin:8px 0 6px;font-size:clamp(26px,4vw,42px)}
 header p{margin:0;color:var(--muted);font-size:clamp(14px,2.2vw,18px)}
 
 /* Переключатель языков */
 .lang{
-    display:inline-flex;gap:10px;align-items:center;margin-bottom:8px;flex-wrap:wrap
+    display:inline-flex;gap:20px;align-items:center;margin-bottom:5px;flex-wrap:wrap
 }
 .lang a{
     color:var(--muted);
@@ -134,8 +134,8 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:18px 0 8px}
 
 /* Мелкие улучшения для мобильных */
 @media(max-width:520px){
-    header{padding:20px 0 6px}
-    .main-logo{max-width:150px;margin-bottom:8px}
+    header{padding:0px 0 0px}
+    .main-logo{max-width:200px;margin-bottom:0px}
     .card{padding:16px 16px 64px}
     .btn{padding:11px 14px;font-size:13px}
 }
