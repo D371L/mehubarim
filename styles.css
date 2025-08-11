@@ -132,7 +132,7 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:18px 0 8px}
     .sponsors img{height:36px}
 }
 
-/* Мелкие улучшения для мобильных */
+/* Улучшения для мобильных */
 @media(max-width:520px){
     header{padding:0px 0 0px}
     .main-logo{max-width:200px;margin-bottom:0px}
@@ -140,7 +140,7 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:18px 0 8px}
     .btn{padding:11px 14px;font-size:13px}
 }
 
-/* Уважение к настройке пользователей */
+/* Предпочтение к настройке пользователей */
 @media (prefers-reduced-motion:reduce){
     *{transition:none!important}
 }
