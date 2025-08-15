@@ -144,3 +144,9 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:18px 0 8px}
 @media (prefers-reduced-motion:reduce){
     *{transition:none!important}
 }
+
+.tel, .email {
+    direction:ltr;
+    unicode-bidi:embed;
+    white-space:nowrap;
+}
