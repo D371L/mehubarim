@@ -28,5 +28,5 @@ Mehubarim сотрудничает с:
 ---
 
 <div align="center">
-  <h3>Разработка и поддержка <a href="mailto:D371L@pm.me"><b>D371L@pm.me</b></a></h3>
+  <h4>Forget with 🔥 By <a href="mailto:D371L@pm.me"><b>D371L</b></a></h4>
 </div>
