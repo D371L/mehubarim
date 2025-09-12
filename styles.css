@@ -26,17 +26,14 @@ body{
 
 a{color:inherit;text-decoration:none}
 
-/* Контейнер */
 .wrap{max-width:800px;margin:0 auto;padding:24px}
 @media(max-width:560px){.wrap{padding:18px}}
 
-/* Шапка */
 header{text-align:center;padding:1px 1px 1px}
 .main-logo{max-width:240px;height:auto;margin:0 auto 0px;display:block}
 header h1{margin:8px 0 6px;font-size:clamp(26px,4vw,42px)}
 header p{margin:0;color:var(--muted);font-size:clamp(14px,2.2vw,18px)}
 
-/* Переключатель языков */
 .lang{
     display:inline-flex;gap:20px;align-items:center;margin-bottom:5px;flex-wrap:wrap
 }
@@ -51,7 +48,6 @@ header p{margin:0;color:var(--muted);font-size:clamp(14px,2.2vw,18px)}
 .lang a.active{color:var(--text);border-color:rgba(255,255,255,.36);background:rgba(255,255,255,.06)}
 .lang a:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
 
-/* Карточки клубов */
 .clubs{display:grid;grid-template-columns:1fr;gap:22px;padding:20px 0 8px}
 @media(min-width:980px){.clubs{grid-template-columns:1fr 1fr}}
 
@@ -73,7 +69,6 @@ header p{margin:0;color:var(--muted);font-size:clamp(14px,2.2vw,18px)}
 .card h3{margin:0 0 6px;font-size:clamp(17px,2.2vw,22px)}
 .card .details{color:var(--muted);font-size:14px;margin:0 0 12px;line-height:1.4}
 
-/* Кнопки */
 .pillbar{position:absolute;left:14px;right:14px;bottom:14px;display:flex;gap:10px;flex-wrap:wrap}
 .btn{
     appearance:none;border:0;cursor:pointer;font-weight:600;letter-spacing:.3px;
@@ -84,11 +79,8 @@ header p{margin:0;color:var(--muted);font-size:clamp(14px,2.2vw,18px)}
 }
 .btn.primary{background:linear-gradient(180deg,#5a86ff,#436bff);color:#fff}
 .btn.primary:hover{transform:translateY(-1px);box-shadow:0 14px 26px rgba(67,107,255,.4)}
-.btn.ghost{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14)}
-.btn.ghost:hover{transform:translateY(-1px);box-shadow:0 14px 26px rgba(0,0,0,.4)}
 .btn:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
 
-/* Наши каналы */
 .channels{text-align:center;padding:24px 0 6px}
 .channels h2{margin:8px 0 16px;font-size:clamp(20px,3vw,26px)}
 .bubbles{display:flex;justify-content:center;gap:18px;flex-wrap:wrap}
@@ -102,11 +94,9 @@ header p{margin:0;color:var(--muted);font-size:clamp(14px,2.2vw,18px)}
 .bubble:hover{transform:translateY(-2px);box-shadow:0 18px 36px rgba(22,119,255,.45)}
 .bubble:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
 
-/* Футер */
 footer{text-align:center;color:var(--muted);font-size:13px;padding:18px 0 8px}
 .copy{margin-top:8px}
 
-/* Партнёры */
 .mainsponsor{
     display:flex;justify-content:center;align-items:center;gap:30px;
     padding:0px 0 0px;flex-wrap:wrap
@@ -132,7 +122,6 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:18px 0 8px}
     .sponsors img{height:36px}
 }
 
-/* Улучшения для мобильных */
 @media(max-width:520px){
     header{padding:0px 0 0px}
     .main-logo{max-width:200px;margin-bottom:0px}
@@ -140,7 +129,6 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:18px 0 8px}
     .btn{padding:11px 14px;font-size:13px}
 }
 
-/* Предпочтение к настройке пользователей */
 @media (prefers-reduced-motion:reduce){
     *{transition:none!important}
 }
