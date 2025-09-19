@@ -5,12 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>מחוברים - מועדוני נוער</title>
     <meta name="description" content="מועדוני הנוער מחוברים בחיפה. כתובות, פרטי קשר, לוח זמנים.">
+    <meta name="keywords" content="מועדוני נוער, חיפה, מחוברים, עולים, אינטגרציה, נוער, נווה שאנן, קריית אליעזר">
+    <meta name="author" content="מחוברים">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mehubarim.online/">
+    <meta property="og:title" content="מחוברים - מועדוני נוער בחיפה">
+    <meta property="og:description" content="מועדוני הנוער מחוברים בחיפה. כתובות, פרטי קשר, לוח זמנים.">
+    <meta property="og:image" content="https://mehubarim.online/photo/logomehubarim_clear_white.png">
+    <meta property="og:locale" content="he_IL">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mehubarim.online/">
+    <meta property="twitter:title" content="מחוברים - מועדוני נוער בחיפה">
+    <meta property="twitter:description" content="מועדוני הנוער מחוברים בחיפה. כתובות, פרטי קשר, לוח זמנים.">
+    <meta property="twitter:image" content="https://mehubarim.online/photo/logomehubarim_clear_white.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="photo/logomehubarim_clear_white.png" as="image">
     <link rel="stylesheet" href="styles.css">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 </head>
 <body>
+<a href="#main-content" class="skip-link">עבור לתוכן הראשי</a>
 <div class="wrap">
     <header>
-        <img src="photo/logomehubarim_clear_white.png" alt="מחוברים" class="main-logo">
+        <img src="photo/logomehubarim_clear_white.png" alt="מחוברים" class="main-logo" loading="eager">
         <br>
         <div class="lang">
             <a href="index.html">Русский</a>
@@ -20,6 +48,7 @@
         <p>שני מרחבים נוחים למשחקים, שיחות, יצירה ומנוחה.</p>
     </header>
 
+    <main id="main-content">
     <section class="clubs" aria-label="קלאבים">
         <!-- נווה שאנן -->
         <article class="card" aria-labelledby="club-a">
@@ -93,14 +122,15 @@
             </a>
         </div>
     </section>
+    </main>
 
     <footer>
         <section class="mainsponsor">
-            <img src="photo/klita_logo.webp" alt="1">
+            <img src="photo/klita_logo.webp" alt="לוגו קליטה - נותן החסות הראשי" loading="lazy">
         </section>
         <section class="sponsors">
-            <img src="photo/aliya_klita_logo.png" alt="2">
-            <img src="photo/haifa_muni_logo.png" alt="3">
+            <img src="photo/aliya_klita_logo.png" alt="לוגו עלייה קליטה" loading="lazy">
+            <img src="photo/haifa_muni_logo.png" alt="לוגו עיריית חיפה" loading="lazy">
         </section>
         <div class="copy">© מחוברים, חיפה</div>
     </footer>

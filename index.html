@@ -5,12 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Мехубарим - Молодёжные Клубы</title>
     <meta name="description" content="Молодёжные клубы Мехубарим в Хайфе. Адреса, контакты, расписание.">
+    <meta name="keywords" content="молодёжные клубы, Хайфа, Мехубарим, репатрианты, интеграция, подростки, Неве Шеанан, Кирьят Элиэзер">
+    <meta name="author" content="Мехубарим">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mehubarim.online/">
+    <meta property="og:title" content="Мехубарим - Молодёжные Клубы в Хайфе">
+    <meta property="og:description" content="Молодёжные клубы Мехубарим в Хайфе. Адреса, контакты, расписание.">
+    <meta property="og:image" content="https://mehubarim.online/photo/logomehubarim_clear_white.png">
+    <meta property="og:locale" content="ru_RU">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mehubarim.online/">
+    <meta property="twitter:title" content="Мехубарим - Молодёжные Клубы в Хайфе">
+    <meta property="twitter:description" content="Молодёжные клубы Мехубарим в Хайфе. Адреса, контакты, расписание.">
+    <meta property="twitter:image" content="https://mehubarim.online/photo/logomehubarim_clear_white.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="photo/logomehubarim_clear_white.png" as="image">
     <link rel="stylesheet" href="styles.css">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 </head>
 <body>
+<a href="#main-content" class="skip-link">Перейти к основному содержимому</a>
 <div class="wrap">
     <header>
-        <img src="photo/logomehubarim_clear_white.png" alt="Мехубарим" class="main-logo">
+        <img src="photo/logomehubarim_clear_white.png" alt="Мехубарим" class="main-logo" loading="eager">
         <br>
         <div class="lang">
             <a href="index.html" class="active">Русский</a>
@@ -20,6 +48,7 @@
         <p>Два удобных пространства для игр, общения, творчества и отдыха.</p>
     </header>
 
+    <main id="main-content">
     <section class="clubs" aria-label="Клубы">
         <article class="card" aria-labelledby="club-a">
             <h3 id="club-a">Мехубарим Неве Шеанан</h3>
@@ -77,14 +106,15 @@
             </a>
         </div>
     </section>
+    </main>
 
     <footer>
         <section class="mainsponsor">
-            <img src="photo/klita_logo.webp" alt="1">
+            <img src="photo/klita_logo.webp" alt="Логотип Клита - главный спонсор" loading="lazy">
         </section>
         <section class="sponsors">
-            <img src="photo/aliya_klita_logo.png" alt="2">
-            <img src="photo/haifa_muni_logo.png" alt="3">
+            <img src="photo/aliya_klita_logo.png" alt="Логотип Алия Клита" loading="lazy">
+            <img src="photo/haifa_muni_logo.png" alt="Логотип муниципалитета Хайфы" loading="lazy">
         </section>
         <div class="copy">© Мехубарим, Хайфа</div>
     </footer>
